@@ -1,0 +1,18 @@
+# Oracle Cloud Infrastructure Authentication details
+tenancy_ocid        = "ocid1.tenancy.oc1."
+user_ocid           = "ocid1.user.oc1."
+private_key_path    = "~/.oci/oci_api_key.pem"
+fingerprint         = ""
+region              = "uk-london-1"
+
+# Using oke Compartment
+compartment_ocid    = "ocid1.compartment.oc1." # compartment
+
+# Compute Instance
+source_ocid         = "ocid1.image.oc1.uk-london-1.aaaaaaaat2c3qn53nzxyry27noufp7iujsihgghlyoytyfjxsiv4kwwfoy6a" # Oracle Linux 7.8 
+
+# Kubernets Version
+kubernetes_version  = "v1.20.8"
+cluster_name        = "tf-cluster"
+pool_name           = "tf-pool"     
+size_in_gbs         = 100
